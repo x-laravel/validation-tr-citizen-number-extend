@@ -92,4 +92,4 @@ The suite runs on Orchestra Testbench against every supported Laravel and PHP co
 
 ## License
 
-Open source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Open source software licensed under the [MIT license](LICENSE).
