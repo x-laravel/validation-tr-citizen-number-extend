@@ -2,6 +2,7 @@
 
 namespace XLaravel\ValidationTrCitizenNumberExtend\Tests;
 
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Validator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use XLaravel\ValidationTrCitizenNumberExtend\Rules\TrCitizenNumber;
@@ -36,7 +37,7 @@ class TrCitizenNumberTest extends TestCase
 
     public function testRuleObjectMessageIsTranslatedInTurkish(): void
     {
-        $this->app->setLocale('tr');
+        App::setLocale('tr');
 
         $validator = Validator::make(['citizen_no' => '12345678901'], ['citizen_no' => new TrCitizenNumber]);
 
@@ -87,6 +88,7 @@ class TrCitizenNumberTest extends TestCase
         $this->assertTrue($validator->passes());
     }
 
+    /** @return array<string, array{int|string}> */
     public static function validValues(): array
     {
         return [
@@ -96,6 +98,7 @@ class TrCitizenNumberTest extends TestCase
         ];
     }
 
+    /** @return array<string, array{mixed}> */
     public static function invalidValues(): array
     {
         return [

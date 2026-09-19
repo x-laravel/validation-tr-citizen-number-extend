@@ -86,9 +86,11 @@ institutions with a membership.
 ```bash
 composer install
 composer test
+composer analyse
 ```
 
-The suite runs on Orchestra Testbench against every supported Laravel and PHP combination in CI.
+The suite runs on Orchestra Testbench against every supported Laravel and PHP combination in CI,
+along with PHPStan (Larastan) at its highest level.
 
 ## License
 

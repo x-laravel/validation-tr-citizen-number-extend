@@ -25,7 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - English translation alongside the Turkish one.
 - Language files are publishable with `php artisan vendor:publish --tag=tr-citizen-number-lang`.
-- Orchestra Testbench test suite and a GitHub Actions matrix across PHP 8.1–8.5 and Laravel 10–13.
+- Orchestra Testbench test suite and a GitHub Actions matrix across PHP 8.1–8.5 and Laravel 10–13,
+  plus PHPStan (Larastan) at level max.
 - MIT license file.
 
 [Unreleased]: https://github.com/X-Laravel/validation-tr-citizen-number-extend/compare/1.x...2.x
