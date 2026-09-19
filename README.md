@@ -69,7 +69,7 @@ validation instead of throwing.
 To change the rule object's messages, publish the language files and edit them:
 
 ```bash
-php artisan vendor:publish --tag=tr-citizen-number-lang
+php artisan vendor:publish --tag=tr-citizen-number-translations
 ```
 
 They land in `lang/vendor/tr-citizen-number/{tr,en}/validation.php`.
