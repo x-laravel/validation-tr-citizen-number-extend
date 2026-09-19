@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Minimum PHP version raised from 7.0 to 8.1; supported Laravel versions are now 10 through 13.
+- Minimum PHP version raised from 7.0 to 8.2; supported Laravel versions are now 12 and 13.
 - Requires `x-adam/tr-citizen-number-validation` 5, which fixes the checksum bug for numbers
   with a negative intermediate sum.
 - The rule class is renamed from `Rules\TrCitizenNumberRule` to `Rules\TrCitizenNumber` and
@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - English translation alongside the Turkish one.
 - Language files are publishable with `php artisan vendor:publish --tag=tr-citizen-number-translations`.
-- Orchestra Testbench test suite and a GitHub Actions matrix across PHP 8.1–8.5 and Laravel 10–13,
+- Orchestra Testbench test suite and a GitHub Actions matrix across PHP 8.2–8.5 and Laravel 12–13,
   plus PHPStan (Larastan) at level max.
 - MIT license file.
 

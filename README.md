@@ -17,7 +17,7 @@ beyond Laravel itself.
 
 | Package version | PHP | Laravel |
 |-----------------|-----|---------|
-| 2.x | 8.1+ | 10, 11, 12, 13 |
+| 2.x | 8.2+ | 12, 13 |
 | 1.x | 7.0+ | 5.5+ |
 
 ## Installation
